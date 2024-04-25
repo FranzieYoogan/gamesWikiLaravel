@@ -19,6 +19,20 @@
        
         @include('header')
 
+        <section>
+
+            @if(isset($response))
+
+      
+            @foreach($response as $data)
+
+            <h1>{{$data->title}}</h1>
+
+            @endforeach
+            @endif
+
+        </section>
+
 
     </body>
 </html>
