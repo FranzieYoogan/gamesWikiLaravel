@@ -19,14 +19,22 @@
        
         @include('header')
 
-        <section>
+        <section class="containerAll">
 
             @if(isset($response))
 
       
             @foreach($response as $data)
 
-            <h1>{{$data->title}}</h1>
+            <div class="containerItems">
+                <h1 class="titleGame">{{$data->title}}</h1>
+                <img class="imgGame" src="{{asset("$data->thumbnail")}}" alt="">
+            </div>
+                
+       
+
+          
+          
 
             @endforeach
             @endif

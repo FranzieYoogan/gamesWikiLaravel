@@ -13,3 +13,86 @@ body {
       background-position-x: 60%;
     }
   }
+
+  .containerAll {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    .imgGame {
+
+        width: 90px !important;
+        
+      }
+
+      .titleGame {
+
+        color: red;
+        text-shadow: 2px 2px 2px purple;
+        font-weight: 900;
+        font-size: 15px !important;
+     
+       }
+  }
+
+  @media only screen and (max-width: 554px) {
+    .imgGame {
+
+        width: 200px;
+        
+      }
+
+      .titleGame {
+
+        color: red;
+        text-shadow: 2px 2px 2px purple;
+        font-weight: 900;
+        font-size: 8px !important;
+     
+       }
+  }
+
+  .titleGame {
+
+   color: red;
+   text-shadow: 2px 2px 2px purple;
+   font-weight: 900;
+   font-size: 20px;
+
+  }
+
+  .containerItems {
+
+    margin-top: 2em;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: black;
+
+  }
+
+  .imgGame {
+
+    width: 100%;
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px 1px purple;
+  }
+
+  body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+background-color: black;
+border: 1px solid white;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: red;
+    outline: 1px solid slategrey;
+  }

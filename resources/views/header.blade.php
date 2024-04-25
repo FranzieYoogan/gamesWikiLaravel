@@ -34,7 +34,7 @@
             Categories
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">MMORPG</a></li>
+            <li><a class="dropdown-item" href="/">MMORPG</a></li>
             <li><a class="dropdown-item" href="#">CARD</a></li>
             <li><a class="dropdown-item" href="#">MOBA</a></li>
             <li><hr class="dropdown-divider"></li>
