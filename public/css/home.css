@@ -1,0 +1,15 @@
+body {
+
+    background: url('/img/wallpaper/wallpaper.gif');
+    background-size: 100%;
+    background-position-y: 18%;
+
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-size: 150%;
+      background-position-y: 0%;
+      background-position-x: 60%;
+    }
+  }
