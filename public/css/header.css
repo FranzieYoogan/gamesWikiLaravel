@@ -1,0 +1,29 @@
+.navbar-nav {
+
+  
+   margin-left: 63%;
+  
+
+}
+
+@media only screen and (width: 400px) {
+    .navbar-nav {
+
+  
+        margin-left: 0%;
+       
+     
+     }
+  }
+
+
+
+  @media only screen and (width: 554px) {
+    .navbar-nav {
+
+  
+        margin-left: 0%;
+       
+     
+     }
+  }
