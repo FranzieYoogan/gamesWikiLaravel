@@ -20,6 +20,7 @@
         @include('header')
 
         <section class="containerAll" >
+            
                 
             @if(isset($response))
 
@@ -46,8 +47,12 @@
             @endforeach
             @endif
 
+
+
         </section>
 
 
+
     </body>
+    @include('footer')
 </html>

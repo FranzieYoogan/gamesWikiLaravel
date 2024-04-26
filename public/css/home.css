@@ -3,7 +3,7 @@ body {
     background: url('/img/wallpaper/wallpaper.gif');
     background-size: 100%;
     background-position-y: 18%;
-
+    overflow-x: hidden !important;
 }
 
 .titleGame {

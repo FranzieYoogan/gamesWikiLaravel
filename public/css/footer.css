@@ -1,0 +1,23 @@
+footer {
+
+    background-color: transparent !important;
+    border-top: 2px solid white !important;
+    color: white !important;
+    text-shadow: 2px 2px 2px purple;
+}
+
+.textStyle {
+
+    color: white !important;
+    text-shadow: 2px 2px 2px purple;
+    border-bottom: 1px solid white !important;
+   font-weight: 900;
+    transition: 0.5s;
+}
+
+.textStyle:hover {
+
+    border-bottom: 1px solid transparent !important;
+
+}
+
