@@ -35,7 +35,7 @@ body {
 
     .gameTitle {
 
-        font-size: 15px !important;
+        font-size: 11px !important;
 
     }
 
@@ -56,7 +56,7 @@ body {
 
     .gameTitle {
 
-        font-size: 20px !important;
+        font-size: 15px !important;
 
     }
 
@@ -91,7 +91,7 @@ body {
 .status {
 
     color: green;
-
+    margin-left: 0.5em;
 }
 
 
@@ -105,7 +105,7 @@ body {
 
     .gameTitle {
 
-        font-size: 15px !important;
+        font-size: 11px !important;
 
     }
 
@@ -127,7 +127,7 @@ body {
 
     .gameTitle { 
 
-        font-size: 13px !important;
+        font-size: 11px !important;
 
     }
 
@@ -148,7 +148,7 @@ body {
 
     .gameTitle {
 
-        font-size: 10px !important;
+        font-size: 9px !important;
 
     }
 
@@ -173,7 +173,7 @@ body {
 .gameTitle {
 
     font-weight: 900;
-    font-size: 28px;
+    font-size: 25px;
     color: red;
     text-shadow: 2px 2px 2px purple;
     margin-bottom: 0.5em;

@@ -42,4 +42,33 @@ class Controller extends BaseController
        return view('game', ['response' => $response]);
     }
 
+
+
+    public function gameSearch(Request $request) {
+
+        $searchValue = $request->input('searchValue');
+
+
+ $response = json_decode(Http::get("https://www.freetogame.com/api/games"));
+
+        foreach($response as $data) {
+
+            if($data->title == $searchValue) {
+
+                $id = $data->id;
+
+                $response2 = json_decode(Http::get("https://www.freetogame.com/api/game?id=$id"));
+
+                
+                return view('game2', ['response2' => $response2]);
+            }
+
+        }
+
+
+
+
+
+    }
+
 }   

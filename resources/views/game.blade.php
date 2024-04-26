@@ -18,7 +18,7 @@
         <div class="containerItem">
 
             <div>
-                <h1 class="gameTitle">{{$response->title}} - Status: @if($response->status == "Live")<span class="status">{{$response->status}}</span>@endif</h1>
+                <h1 class="gameTitle">{{$response->title}} - Status:<span class="status">{{$response->status}}</span></h1>
             </div>
 
 
@@ -38,8 +38,6 @@
 
     </section>
     
-
-
 
 
 

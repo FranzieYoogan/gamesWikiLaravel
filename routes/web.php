@@ -22,9 +22,21 @@ Route::get('/game', function () {
     return view('game');
 });
 
+Route::get('/game2', function () {
+    return view('game');
+});
+
+Route::get('/header', function () {
+    return view('header');
+});
+
 Route::get('/', [Controller::class, 'dataMmo']);
 
 Route::post('/game', [Controller::class, 'gameCatch']);
+
+Route::post('/header', [Controller::class, 'gameSearch']);
+
+Route::post('/game2', [Controller::class, 'gameSearch']);
 
 
 
