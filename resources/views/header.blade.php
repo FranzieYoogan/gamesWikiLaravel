@@ -48,7 +48,7 @@
       <form class="d-flex" role="search" method="POST" action="/game2">
         @csrf
         <input class="form-control me-2" type="search" name="searchValue" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-success" type="submit" name="submit">Search</button>
       </form>
     </div>
   </div>

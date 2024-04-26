@@ -49,6 +49,11 @@ class Controller extends BaseController
         $searchValue = $request->input('searchValue');
 
 
+        if(isset($_POST['submit'])) {
+
+
+      
+    
  $response = json_decode(Http::get("https://www.freetogame.com/api/games"));
 
         foreach($response as $data) {
@@ -66,7 +71,7 @@ class Controller extends BaseController
         }
 
 
-
+    }
 
 
     }
