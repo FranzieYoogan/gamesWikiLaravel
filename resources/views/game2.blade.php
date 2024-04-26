@@ -6,6 +6,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{asset('/css/game.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/footer.css')}}">
 </head>
 <body>
 
@@ -16,6 +17,7 @@
 
 <section class="containerAll">
 
+    
     <div class="containerItem">
 
         <div>
@@ -31,17 +33,47 @@
             </p>
 
         </div>
+        
 
-
+  
     </div>
 
+</section>
+
 @endif
+
 
 @if(isset($error))
 
     <h1 class="error">ERROR</h1>
 
+
 @endif
+
+<footer
+class="footer text-center"
+
+>
+<!-- Grid container -->
+
+
+<!-- Copyright -->
+<div
+class="footer text-center p-3"
+
+>
+© 2024 Copyright:
+<a class="textStyle" href="https://www.freetogame.com/api-doc"
+>freetogameApi</a
+>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+
     
 </body>
+
+
 </html>
+

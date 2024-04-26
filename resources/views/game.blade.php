@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{asset('/css/game.css')}}">
     <title>Document</title>
+    <link rel="stylesheet" href="{{asset('/css/footer.css')}}">
 </head>
 <body>
 
@@ -38,6 +39,32 @@
 
     </section>
     
+
+
+
+    <footer
+                class="footer text-center"
+            
+                >
+          <!-- Grid container -->
+      
+      
+          <!-- Copyright -->
+          <div
+               class="footer text-center p-3"
+            
+               >
+            © 2024 Copyright:
+            <a class="textStyle" href="https://www.freetogame.com/api-doc"
+               >freetogameApi</a
+              >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+    
+
 
 
 

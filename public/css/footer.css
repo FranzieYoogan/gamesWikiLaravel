@@ -4,11 +4,14 @@ footer {
     border-top: 2px solid white !important;
     color: white !important;
     text-shadow: 2px 2px 2px purple;
+    position: relative;
+    width: 100% !important;
 }
 
 .textStyle {
 
     color: white !important;
+    text-decoration: none;
     text-shadow: 2px 2px 2px purple;
     border-bottom: 1px solid white !important;
    font-weight: 900;
