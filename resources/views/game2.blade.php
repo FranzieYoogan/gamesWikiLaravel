@@ -40,15 +40,6 @@
 
 </section>
 
-@endif
-
-
-@if(isset($error))
-
-    <h1 class="error">ERROR</h1>
-
-
-@endif
 
 <footer
 class="footer text-center"
@@ -70,6 +61,12 @@ class="footer text-center p-3"
 <!-- Copyright -->
 </footer>
 <!-- Footer -->
+
+@endif
+
+
+
+
 
     
 </body>

@@ -138,7 +138,7 @@ public function gameCatch(Request $request) {
 
             $error = true;
 
-            return view('game2', ['error' => $error]);
+            return view('error', ['error' => $error]);
 
         }
 

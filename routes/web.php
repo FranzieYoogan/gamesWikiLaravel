@@ -46,6 +46,10 @@ Route::get('/header', function () {
     return view('header');
 });
 
+Route::get('/error', function () {
+    return view('header');
+});
+
 Route::get('/', [Controller::class, 'dataMmo']);
 
 Route::get('/mmorpg', [Controller::class, 'dataMmo2']);
@@ -61,6 +65,8 @@ Route::post('/game', [Controller::class, 'gameCatch']);
 Route::post('/header', [Controller::class, 'gameSearch']);
 
 Route::post('/game2', [Controller::class, 'gameSearch']);
+
+Route::post('/error', [Controller::class, 'gameSearch']);
 
 
 

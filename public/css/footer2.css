@@ -1,11 +1,11 @@
-footer {
+.footer2 {
 
     background-color: transparent !important;
     border-top: 2px solid white !important;
     color: white !important;
     text-shadow: 2px 2px 2px purple;
-    position: relative;
-
+    position: absolute;
+    bottom: 0;
     width: 100% !important;
 }
 
