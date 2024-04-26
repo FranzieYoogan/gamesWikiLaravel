@@ -19,17 +19,24 @@
        
         @include('header')
 
-        <section class="containerAll">
-
+        <section class="containerAll" >
+                
             @if(isset($response))
 
       
             @foreach($response as $data)
+            
+            <form class="containerItems" method="POST" action="/game">
+                @csrf
 
-            <div class="containerItems">
-                <h1 class="titleGame">{{$data->title}}</h1>
-                <img class="imgGame" src="{{asset("$data->thumbnail")}}" alt="">
-            </div>
+                <div style="display: flex; gap: 1em">
+                    <h1 type="text" class="titleGame" name="gameTitle">{{$data->title}} </h1>
+                    <input type="text" class="titleGame2" name="gameId" value="{{$data->id}}">
+
+                </div>
+             
+                <button style="background-color: transparent; padding: 0px; width: 100%;" type="submit"><img class="imgGame" src="{{asset("$data->thumbnail")}}" alt=""></button>
+            </form>
                 
        
 

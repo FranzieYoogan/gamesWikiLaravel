@@ -18,4 +18,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/game', function () {
+    return view('game');
+});
+
 Route::get('/', [Controller::class, 'dataMmo']);
+
+Route::post('/game', [Controller::class, 'gameCatch']);
+
+
+
+

@@ -6,6 +6,27 @@ body {
 
 }
 
+.titleGame {
+
+    background-color: black !important;
+    border:  none !important;
+    width: 100% !important;
+}
+
+.titleGame2 {
+
+    background-color: black !important;
+    border:  none !important;
+    display: none !important;
+}
+
+.titleGame:hover, .titleGame:active, .titleGame:focus {
+
+    box-shadow: none !important;
+    border: none !important;
+    cursor: default !important;
+}
+
 @media only screen and (max-width: 400px) {
     body {
       background-size: 150%;
@@ -34,7 +55,7 @@ body {
         text-shadow: 2px 2px 2px purple;
         font-weight: 900;
         font-size: 15px !important;
-     
+   
        }
   }
 
