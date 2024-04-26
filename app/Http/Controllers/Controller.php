@@ -20,8 +20,8 @@ class Controller extends BaseController
     
             $response = json_decode(Http::get("https://www.freetogame.com/api/games")) ;
 
-           
-        
+
+
   
 
         return view('welcome', ['response' => $response]);
@@ -100,7 +100,7 @@ public function gameCatch(Request $request) {
 
     $response = json_decode(Http::get("https://www.freetogame.com/api/game?id=$id"));
 
-    
+        
 
    return view('game', ['response' => $response]);
 }
@@ -129,7 +129,16 @@ public function gameCatch(Request $request) {
 
                 
                 return view('game2', ['response2' => $response2]);
-            }
+
+            }   
+
+        }
+
+        if($data->title != $searchValue) {
+
+            $error = true;
+
+            return view('game2', ['error' => $error]);
 
         }
 

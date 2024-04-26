@@ -36,6 +36,12 @@
     </div>
 
 @endif
+
+@if(isset($error))
+
+    <h1 class="error">ERROR</h1>
+
+@endif
     
 </body>
 </html>

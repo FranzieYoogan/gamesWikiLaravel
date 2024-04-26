@@ -25,6 +25,17 @@ body {
     background-color: black;
 }
 
+.error {
+
+    color: red;
+    text-shadow: 2px 2px 2px purple;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+
+
+
+}
+
 
 
 @media only screen and (width: 400px) {
