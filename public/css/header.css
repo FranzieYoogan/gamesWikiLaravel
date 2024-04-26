@@ -6,6 +6,13 @@
 
 }
 
+.dropdown-item  {
+   
+   color:  red !important;
+   font-weight: 900;
+
+}
+
 .nav-link {
 
    color: red !important;
