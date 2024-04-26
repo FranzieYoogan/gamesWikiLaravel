@@ -34,11 +34,11 @@
             Categories
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/">MMORPG</a></li>
-            <li><a class="dropdown-item" href="#">CARD</a></li>
-            <li><a class="dropdown-item" href="#">MOBA</a></li>
+            <li><a class="dropdown-item" href="/mmorpg">MMORPG</a></li>
+            <li><a class="dropdown-item" href="/card">CARD</a></li>
+            <li><a class="dropdown-item" href="/moba">MOBA</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">SHOOTER</a></li>
+            <li><a class="dropdown-item" href="/shooter">SHOOTER</a></li>
           </ul>
           
         </li>

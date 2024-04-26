@@ -28,19 +28,82 @@ class Controller extends BaseController
 
     }
 
-    public function gameCatch(Request $request) {
-
-        
-
-        $id = $request->input('gameId');
+    
+    public function dataMmo2() {
 
 
-        $response = json_decode(Http::get("https://www.freetogame.com/api/game?id=$id"));
+    
+    
+        $response = json_decode(Http::get("https://www.freetogame.com/api/games?category=mmorpg")) ;
 
-        
+       
+    
 
-       return view('game', ['response' => $response]);
-    }
+
+    return view('mmorpg', ['response' => $response]);
+
+}
+
+public function card() {
+
+
+    
+    
+    $response = json_decode(Http::get("https://www.freetogame.com/api/games?category=card")) ;
+
+   
+
+
+
+return view('card', ['response' => $response]);
+
+}
+
+public function moba() {
+
+
+    
+    
+    $response = json_decode(Http::get("https://www.freetogame.com/api/games?category=moba")) ;
+
+   
+
+
+
+return view('card', ['response' => $response]);
+
+}
+
+public function shooter() {
+
+
+    
+    
+    $response = json_decode(Http::get("https://www.freetogame.com/api/games?category=shooter")) ;
+
+   
+
+
+
+return view('card', ['response' => $response]);
+
+}
+
+  
+
+public function gameCatch(Request $request) {
+
+    
+
+    $id = $request->input('gameId');
+
+
+    $response = json_decode(Http::get("https://www.freetogame.com/api/game?id=$id"));
+
+    
+
+   return view('game', ['response' => $response]);
+}
 
 
 
